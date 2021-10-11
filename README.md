@@ -1,7 +1,9 @@
-run make to compile the files.
+<h1> C Multithreading Library </h1>
 
-myQueue does not have tests.
-myQueue is used in channel.c and threadPool.c.
+run ```make``` to compile the files.
 
-Run tests with a command <filename>/<filename>Test
-For example: future/futureTest
+```myQueue``` does not have tests.
+```myQueue``` is used in channel.c and threadPool.c.
+
+Run tests with a command ```<filename>/<filename>Test```
+For example: ```future/futureTest```
