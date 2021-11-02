@@ -23,11 +23,11 @@ void tpoolInit(tpool_t *tpool, int poolSize);
 /*
  * Funtion: tpoolSchedule
  * ---------------------------
- * Adds a funtion to a queue of functoins.
- * The threads do these funtions in order.
+ * Adds a function to a queue of functions.
+ * The threads execute these funtions in order.
  * For example: 
  *  if we have 2 free threads and the queue size is 4,
- *  queue pops 2 functions and assigns them to free threads.
+ *  queue pops 2 functions and assigns them to the free threads.
  */
 void tpoolSchedule(tpool_t *tpool, Func func, void *args);
 
